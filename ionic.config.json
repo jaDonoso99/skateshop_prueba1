@@ -1,0 +1,7 @@
+{
+  "name": "skate_shop",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
