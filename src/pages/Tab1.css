@@ -1,0 +1,106 @@
+.header-content {
+  display: flex;
+  align-items: center;  /* Alinea el logo y el texto verticalmente */
+}
+
+.header-logo {
+  height: 60px;  /* Tamaño pequeño del logo, ajustable */
+  margin-right: 10px;  /* Espacio entre el logo y el título */
+}
+
+.custom-header {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+
+
+/* Sección de productos destacados */
+.featured-products, .user-items, .simple-image, .contact-info {
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+}
+
+.featured-products h2, .user-items h2, .simple-image h2, .contact-info h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Productos */
+.product-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.product-card img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Sección de imágenes animadas */
+.image-slider {
+  padding: 20px;
+  text-align: center;
+}
+
+.image-slider .slider {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.image-slider img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Sección de imagen simple */
+.simple-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Sección de contacto */
+.contact-info {
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.mid-section-image {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.mid-section-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

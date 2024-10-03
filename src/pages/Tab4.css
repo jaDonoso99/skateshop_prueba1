@@ -1,0 +1,50 @@
+/* Tab4.css */
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.cart-item strong {
+  font-size: 1.1rem;
+}
+
+.total {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.ion-button {
+  margin-top: 10px;
+}
+
+.cart-item button {
+  font-size: 0.9rem;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: #ff4a4a;
+}
+
+.ion-button.expand-full {
+  margin-top: 20px;
+  background-color: #28a745;
+  color: white;
+}
+
+.ion-button.expand-full:hover {
+  background-color: #218838;
+}
